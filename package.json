@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "ioredis": "^5.7.0",
     "mongoose": "^8.18.1",
-    "socket.io": "^4.8.1"
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.3"
   }
 }
